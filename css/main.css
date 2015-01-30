@@ -13,10 +13,16 @@ h1 {
   font-size: 4em;
   font-weight: normal;
   line-height: 1.2em;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 h2 {
+  color: #106db3;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
   color: #106db3;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -60,6 +66,7 @@ blockquote {
 header {
   width: 1300px;
   height: auto;
+  margin-bottom: 70px;
 }
 
 header img {
@@ -72,9 +79,10 @@ header img {
 }
 
 article {
-  width: 808px;
+  width: 778px;
   height: auto;
   float: left;
+  padding-right: 30px;
 }
 
 article ul li {
@@ -119,19 +127,36 @@ article img {
 @media only screen and (max-width: 808px) {
   article { width: 100%; }
 }
-
-aside {
-  width: 484px;
-  height: auto;
-  float: right;
-  background: #ccc;
+.avatar {
+  color: #106db3;
+  text-align: center;
 }
 
-@media only screen and (max-width: 492px) {
-  aside{ width: 100%; }
+.avatar p {
+  margin: 0;
+  padding: 0;
+}
 
-@media only screen and (max-width: 492px) {
-  article { width: 100%; }
+.avatar small {
+  color:#cbd4db;
+  padding: 0;
+  margin: 0;
+}
+
+.avatar img {
+  margin-top: 25px;
+}
+
+.ad {
+  color:#cbd4db;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+.ad img {
+  margin: 50px;
+  color:#cbd4db;
+  font-size: .9em;
+  line-height: 1.5em;
 }
 
 .features {
@@ -144,6 +169,27 @@ footer {
   width: 100%;
   height: auto;
 }
+
+aside {
+  width: 344px;
+  height: auto;
+  float: right;
+  /*background: #ccc;*/
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+@media only screen and (max-width: 492px) {
+  aside{ width: 100%; }
+
+@media only screen and (max-width: 492px) {
+  article { width: 100%; }
+}
+
+
+
+
+
 
 
 
