@@ -1,0 +1,41 @@
+
+
+header {
+  width: 1300px;
+  height: 524px;
+  background: blue;
+}
+
+.container {
+  width: 1300px;
+  height: 1006px;
+  background: red;
+  margin:0 auto 0 auto;
+}
+
+article {
+  width: 808px;
+  height: 100%;
+  float: left;
+  background: green;
+}
+
+aside {
+  width: 492px;
+  height:100%;
+  float: right;
+  background: black;
+}
+
+.features {
+  width: 1300px;
+  height: 333px;
+  clear: both;
+  background: purple;
+}
+
+footer {
+  width: 1300px;
+  height: 96px;
+  background: yellow;
+}
