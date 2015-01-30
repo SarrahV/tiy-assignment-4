@@ -3,12 +3,17 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #697279;
   font-size: 1em;
+  line-height: 2em;
 }
 
 h1 {
   color:#083452;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  font-size: 4em;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -21,18 +26,35 @@ blockquote {
   color: #106db3;
   text-transform: uppercase;
   border-left: 1px solid #d3d3d3;
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-left: 6px;
   padding-left: 20px; 
+  padding-top: 10px;
+  line-height: 3em;
 }
 
 .container { 
   width: 1300px; 
   margin:0 auto 0 auto;
+  padding: 0px 50px 0px 50px;
 }
 
 @media only screen and (max-width: 1300px) {
   .container { width: 100%; }
+}
+
+
+.author{
+  color: #106db3;
+ 
+}
+
+
+.author-date {
+  color:#cbd4db;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10px;
+  text-decoration: underline;
 }
 
 header {
@@ -53,6 +75,7 @@ article {
   width: 808px;
   height: auto;
   float: left;
+  padding: 0 30px 0 0;
 }
 
 article img {
@@ -88,4 +111,6 @@ footer {
   width: 100%;
   height: auto;
 }
+
+
 
