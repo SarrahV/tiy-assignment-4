@@ -1,41 +1,77 @@
+body {
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  color: #697279;
+  font-size: 1em;
+}
 
+h1 {
+  color:#083452;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #106db3;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+
+.container { 
+  width: 1300px; 
+  margin:0 auto 0 auto;
+}
+
+@media only screen and (max-width: 1300px) {
+  .container { width: 100%; }
+}
 
 header {
   width: 1300px;
-  height: 524px;
-  background: blue;
+  height: auto;
 }
 
-.container {
+header img {
   width: 1300px;
-  height: 1006px;
-  background: red;
-  margin:0 auto 0 auto;
+  height: 523px;
+}
+
+@media only screen and (max-width: 1300px) {
+  header img { width: 100%; }
 }
 
 article {
   width: 808px;
-  height: 100%;
+  height: auto;
   float: left;
-  background: green;
+}
+
+@media only screen and (max-width: 808px) {
+  article { width: 100%; }
 }
 
 aside {
   width: 492px;
-  height:100%;
+  height:auto;
   float: right;
-  background: black;
+}
+
+@media only screen and (max-width: 492px) {
+  aside{ width: 100%; }
+
+@media only screen and (max-width: 492px) {
+  article { width: 100%; }
 }
 
 .features {
-  width: 1300px;
-  height: 333px;
+  width: 100%;
+  height: auto;
   clear: both;
-  background: purple;
 }
 
+
 footer {
-  width: 1300px;
-  height: 96px;
-  background: yellow;
+  width: 100%;
+  height: auto;
 }
