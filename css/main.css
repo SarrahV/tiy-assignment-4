@@ -75,7 +75,6 @@ article {
   width: 808px;
   height: auto;
   float: left;
-  padding: 0 30px 0 0;
 }
 
 article ul li {
@@ -96,10 +95,6 @@ article img {
   height: 31px;
 }
 
-.icon1 p {
-  margin: 0;
-  padding: 0;
-}
 .comm {
   background: #5e686f;
   width: 16px;
@@ -126,9 +121,10 @@ article img {
 }
 
 aside {
-  width: 492px;
-  height:auto;
+  width: 484px;
+  height: auto;
   float: right;
+  background: #ccc;
 }
 
 @media only screen and (max-width: 492px) {
@@ -143,7 +139,6 @@ aside {
   height: auto;
   clear: both;
 }
-
 
 footer {
   width: 100%;
