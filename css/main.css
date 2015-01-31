@@ -43,12 +43,13 @@ blockquote {
   width: 1300px; 
   margin:0 auto 0 auto;
   padding: 0px 50px 0px 50px;
+  overflow: hidden;
 }
 
-@media only screen and (max-width: 1300px) {
+/* @media only screen and (max-width: 1300px) {
   .container { width: 100%; }
 }
-
+*/
 
 .author{
   color: #106db3;
@@ -74,9 +75,9 @@ header img {
   height: 523px;
 }
 
-@media only screen and (max-width: 1300px) {
+/* @media only screen and (max-width: 1300px) {
   header img { width: 100%; }
-}
+} */
 
 article {
   width: 778px;
@@ -93,6 +94,10 @@ article img {
   width: 24px;
   height: 24px;
 }
+
+/* @media only screen and (max-width: 808px) {
+  article { width: 100%; } */
+
 
 .icon1 {
   background: #a3b3bf;
@@ -117,6 +122,7 @@ article img {
   font-size: .8em;
   height: 31px;
 }
+
 .share{
   background: #083452;
   width: 16px;
@@ -124,9 +130,15 @@ article img {
   padding: 8px;
 }
 
-@media only screen and (max-width: 808px) {
-  article { width: 100%; }
+aside {
+  width: 284px;
+  height: auto;
+  float: right;
+  /*background: #ccc;*/
+  padding-left: 100px;
+  padding-right: 100px;
 }
+
 .avatar {
   color: #106db3;
   text-align: center;
@@ -169,11 +181,29 @@ article img {
   margin-top: 55px;
 }
 
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 
 .features {
   width: 100%;
   height: auto;
   clear: both;
+  margin-top: 68px;
+}
+
+.features h2 {
+  color:#083452;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0px;
 }
 
 footer {
@@ -181,22 +211,15 @@ footer {
   height: auto;
 }
 
-aside {
-  width: 284px;
-  height: auto;
-  float: right;
-  /*background: #ccc;*/
-  padding-left: 100px;
-  padding-right: 100px;
-}
 
-@media only screen and (max-width: 492px) {
+
+/* @media only screen and (max-width: 492px) {
   aside{ width: 100%; }
 
 @media only screen and (max-width: 492px) {
   article { width: 100%; }
 }
-
+*/
 
 
 
