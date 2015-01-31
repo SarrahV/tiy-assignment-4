@@ -230,6 +230,14 @@ hr {
   width: 325px;
   float: left;
 }
+
+.box1 h2, .box2 h2, .box3 h2, .box4 h2 {
+  font-size: 1.2em;
+  color: rgb(16, 109, 179);
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
 footer {
   width: 100%;
   height: auto;
