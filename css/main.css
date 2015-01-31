@@ -1,13 +1,13 @@
 body {
-  background: #ffffff;
+  background: rgb(255, 255, 255);
   font-family: "Open Sans", sans-serif;
-  color: #697279;
+  color: rgb(105, 114, 121);
   font-size: 1em;
   line-height: 2em;
 }
 
 h1 {
-  color:#083452;
+  color: rgb(8, 52, 82);
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 4em;
@@ -17,21 +17,21 @@ h1 {
 }
 
 h2 {
-  color: #106db3;
+  color: rgb(16, 109, 179);
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
 
 h3 {
-  color: #106db3;
+  color: rgb(16, 109, 179);
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
 
 blockquote {
-  color: #106db3;
+  color: rgb(16, 109, 179);
   text-transform: uppercase;
-  border-left: 1px solid #d3d3d3;
+  border-left: 1px solid rgb(211, 211, 211);
   font-size: 1.8em;
   margin-left: 6px;
   padding-left: 20px; 
@@ -52,13 +52,13 @@ blockquote {
 */
 
 .author{
-  color: #106db3;
+  color: rgb(16, 109, 179);
  
 }
 
 
 .author-date {
-  color:#cbd4db;
+  color: rgb(203, 212, 219);
   font-family: 'Open Sans', sans-serif;
   padding-left: 10px;
   text-decoration: underline;
@@ -100,31 +100,31 @@ article img {
 
 
 .icon1 {
-  background: #a3b3bf;
+  background: rgb(163, 179, 191);
   float: left;
   margin: 0 10px 0 0;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: .8em;
   height: 31px;
 }
 
 .comm {
-  background: #5e686f;
+  background: rgb(94, 104, 111);
   width: 16px;
   height: 15px;
   padding: 8px;
 }
 
 .icon2 {
-  background: #106db3;
+  background: rgb(16, 109, 179);
   float: left;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: .8em;
   height: 31px;
 }
 
 .share{
-  background: #083452;
+  background: rgb(8, 52, 82);
   width: 16px;
   height: 15px;
   padding: 8px;
@@ -134,13 +134,12 @@ aside {
   width: 284px;
   height: auto;
   float: right;
-  /*background: #ccc;*/
   padding-left: 100px;
   padding-right: 100px;
 }
 
 .avatar {
-  color: #106db3;
+  color: rgb(16, 109, 179);
   text-align: center;
 }
 
@@ -150,7 +149,7 @@ aside {
 }
 
 .avatar small {
-  color:#cbd4db;
+  color: rgb(203, 212, 219);
   padding: 0;
   margin: 0;
 }
@@ -160,15 +159,15 @@ aside {
 }
 
 .ad {
-  color:#cbd4db;
+  color: rgb(203, 212, 219);
   font-size: .9em;
   line-height: 1.5em;
 }
 
 .ad img {
-  color:#cbd4db;
+  /*color:#cbd4db;
   font-size: .9em;
-  line-height: 1.5em;
+  line-height: 1.5em;*/
   margin-top: 50px;
 }
 
@@ -197,13 +196,14 @@ hr {
 }
 
 .features h2 {
-  color:#083452;
+  color: rgb(8, 52, 82);
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 4em;
   font-weight: normal;
   line-height: 1.2em;
-  margin: 0px;
+  margin: 45px 0 45px 0;
+  text-align: center;
 }
 
 footer {
