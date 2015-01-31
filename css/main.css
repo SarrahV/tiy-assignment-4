@@ -152,12 +152,23 @@ article img {
   font-size: .9em;
   line-height: 1.5em;
 }
+
 .ad img {
-  margin: 50px;
   color:#cbd4db;
   font-size: .9em;
   line-height: 1.5em;
+  margin-top: 50px;
 }
+
+.ad p:first-of-type {
+  text-decoration: underline;
+  text-align: right;
+}
+
+.ad h3 {
+  margin-top: 55px;
+}
+
 
 .features {
   width: 100%;
@@ -171,12 +182,12 @@ footer {
 }
 
 aside {
-  width: 344px;
+  width: 284px;
   height: auto;
   float: right;
   /*background: #ccc;*/
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 @media only screen and (max-width: 492px) {
