@@ -249,7 +249,7 @@ hr {
   position: absolute;
   }
 
-.overlay:hover h2 {
+.overlay:hover h2,  {
   color: rgb(255, 255, 255);
   }
 
@@ -267,6 +267,23 @@ hr {
 footer {
   width: 100%;
   height: auto;
+  background: rgb(8, 52, 82);
+  overflow: hidden;
+}
+
+.logo-foot {
+  float: left;
+}
+
+.nav-foot {
+  font-size: .8em;
+  list-style-type: none;
+  float: right;
+
+}
+.nav-foot li {
+  display: inline;
+  
 }
 
 
