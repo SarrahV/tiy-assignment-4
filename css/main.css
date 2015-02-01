@@ -46,14 +46,8 @@ blockquote {
   overflow: hidden;
 }
 
-/* @media only screen and (max-width: 1300px) {
-  .container { width: 100%; }
-}
-*/
-
 .author{
   color: rgb(16, 109, 179);
- 
 }
 
 
@@ -68,7 +62,6 @@ header {
   width: 1300px;
   height: 523px;
   margin: 0 auto 70px auto;
-  /*margin-bottom: 70px;*/
   padding: 0;
   background-image: url(../assets/header.jpg);
   overflow: hidden;
@@ -88,15 +81,19 @@ header h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 7em;
   text-shadow: 1px 1px 1px rgba(8, 52, 82, 1);
-  /*margin: 0 auto 0 auto;*/
   font-weight: 300;
   position: relative;
   text-align: center;
-
+  margin: 0 0 35px 0;
+  padding: 0;
 } 
 
 .motto {
-  color: rgb(16, 109, 179);
+  color: rgb(8, 52, 82);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
 }
 
 .top-logo {
@@ -128,10 +125,6 @@ ul.top-nav img {
   width: 17px;
 }
 
-/* @media only screen and (max-width: 1300px) {
-  header img { width: 100%; }
-} */
-
 article {
   width: 758px;
   height: auto;
@@ -149,10 +142,6 @@ article img {
   height: 24px;
 }
 
-/* @media only screen and (max-width: 808px) {
-  article { width: 100%; } */
-
-
 .icon1 {
   background: rgb(94, 104, 111);
   float: left;
@@ -167,13 +156,11 @@ article img {
   float: left;
 }
 
-
 .icon1 img {
   width: 16px;
   height: 15px;
   padding-left: 8px;
   padding-right: 8px;
-
 }
 
 .icon2 {
@@ -226,7 +213,6 @@ aside {
 }
 
 .ad img {
-  /*margin-top: 50px;*/
   display: block;
   margin: 50px auto 0 auto;
 }
@@ -248,13 +234,11 @@ hr {
   width: 100%;
 }
 
-
 .features {
   width: 1300px;
   height: auto;
   clear: both;
   margin: 68px auto 0 auto;
-  /*margin-top: 68px;*/
 }
 
 .features h2 {
@@ -275,6 +259,7 @@ hr {
   float: left;
   position: relative;
 }
+
 .box2 {
   background: url(../assets/article-image-2.jpg);
   height: 330px;
@@ -282,6 +267,7 @@ hr {
   float: left;
   position: relative;
 }
+
 .box3 {
   background: url(../assets/article-image-3.jpg);
   height: 330px;
@@ -289,6 +275,7 @@ hr {
   float: left;
   position: relative;
 }
+
 .box4 {
   background: url(../assets/article-image-4.jpg);
   height: 330px;
@@ -302,18 +289,18 @@ hr {
   height: 330px;
   width: 325px;
   position: absolute;
-  }
+}
 
 .overlay:hover {
   background: rgba(8, 52, 82, 0.0);
   height: 330px;
   width: 325px;
   position: absolute;
-  }
+}
 
-.overlay:hover h2,  {
+.overlay:hover h2 {
   color: rgb(255, 255, 255);
-  }
+}
 
 .box1 h2, .box2 h2, .box3 h2, .box4 h2 {
   font-size: 2em;
@@ -363,23 +350,12 @@ footer {
   margin:0;
   padding: 0;
 }
+
 .nav-foot li {
   display: inline; 
 }
 
-.clear {
-  clear: both;
-}
 
-
-
-/* @media only screen and (max-width: 492px) {
-  aside{ width: 100%; }
-
-@media only screen and (max-width: 492px) {
-  article { width: 100%; }
-}
-*/
 
 
 
