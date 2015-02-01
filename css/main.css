@@ -144,16 +144,9 @@ article img {
 
 .icon1 {
   background: rgb(94, 104, 111);
-  float: left;
-}
-
-.icon-text {
-  background: rgb(163, 179, 191);
+  display: inline-block;
   margin: 0 10px 0 0;
-  color: rgb(255, 255, 255);
-  font-size: .8em;
-  height: 31px;
-  float: left;
+  padding: 0;
 }
 
 .icon1 img {
@@ -163,19 +156,40 @@ article img {
   padding-right: 8px;
 }
 
-.icon2 {
-  background: rgb(16, 109, 179);
-  float: left;
+.icon1 p {
+  background: rgb(163, 179, 191);
   color: rgb(255, 255, 255);
   font-size: .8em;
   height: 31px;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  padding: 1px 10px 0 10px;
 }
 
-.share{
+.icon2 {
   background: rgb(8, 52, 82);
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.icon2 img {
   width: 16px;
   height: 15px;
-  padding: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.icon2 p {
+  background: rgb(16, 109, 179);
+  color: rgb(255, 255, 255);
+  font-size: .8em;
+  height: 31px;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  padding: 1px 10px 0 10px;
 }
 
 aside {
@@ -187,19 +201,19 @@ aside {
 }
 
 .avatar {
-  color: rgb(16, 109, 179);
+  color: rgb(203, 212, 219);
   text-align: center;
 }
 
 .avatar p {
+  color: rgb(16, 109, 179);
   margin: 0;
   padding: 0;
 }
 
-.avatar small {
+.avatar small a:link {
   color: rgb(203, 212, 219);
-  padding: 0;
-  margin: 0;
+  text-decoration: none;
 }
 
 .avatar img {
@@ -218,7 +232,6 @@ aside {
 }
 
 .ad p:first-of-type {
-  text-decoration: underline;
   text-align: right;
 }
 
@@ -353,6 +366,23 @@ footer {
 
 .nav-foot li {
   display: inline; 
+}
+
+a:link {
+  color: rgb(203, 212, 219);
+  text-decoration: underline;
+
+}
+
+a:hover {
+  color: rgb(16, 109, 179);
+  text-decoration: underline;
+
+}
+
+a:visited {
+  background: rgb(8, 52, 82);
+  text-decoration: underline;
 }
 
 
