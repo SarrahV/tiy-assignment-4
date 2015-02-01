@@ -40,9 +40,9 @@ blockquote {
 }
 
 .container { 
-  width: 100%; 
-  /*margin:0 auto 0 auto;
-  padding: 0px 50px 0px 50px;*/
+  width: 1200px; 
+  padding: 0px 50px 0px 50px;
+  margin: 0 auto 0 auto;
   overflow: hidden;
 }
 
@@ -67,7 +67,8 @@ blockquote {
 header {
   width: 1300px;
   height: 523px;
-  margin-bottom: 70px;
+  margin: 0 auto 70px auto;
+  /*margin-bottom: 70px;*/
   padding: 0;
   background-image: url(../assets/header.jpg);
   overflow: hidden;
@@ -190,9 +191,9 @@ article img {
 }
 
 aside {
-  width: 362px;
+  width: 262px;
   height: auto;
-  float: left;
+  float: right;
   padding-right: 50px;
   padding-left: 50px;
 }
@@ -252,7 +253,8 @@ hr {
   width: 1300px;
   height: auto;
   clear: both;
-  margin-top: 68px;
+  margin: 68px auto 0 auto;
+  /*margin-top: 68px;*/
 }
 
 .features h2 {
@@ -330,6 +332,7 @@ footer {
   background: rgb(8, 52, 82);
   padding: 25px;
   overflow: hidden;
+  margin: 0 auto 0 auto;
 }
 
 .foot-wrap {
