@@ -78,7 +78,7 @@ header nav {
   margin: 20px auto 175px auto;
   color: rgb(8, 52, 82);
   text-transform: uppercase;
-  width: 975px;
+  width: 1200px;
   position: relative;
 }
 
@@ -133,10 +133,11 @@ ul.top-nav img {
 } */
 
 article {
-  width: 778px;
+  width: 758px;
   height: auto;
   float: left;
   padding-right: 30px;
+  padding-left: 20px;
 }
 
 article ul li {
@@ -191,10 +192,10 @@ article img {
 }
 
 aside {
-  width: 262px;
+  width: 282px;
   height: auto;
   float: right;
-  padding-right: 50px;
+  padding-right: 30px;
   padding-left: 50px;
 }
 
@@ -225,10 +226,9 @@ aside {
 }
 
 .ad img {
-  /*color:#cbd4db;
-  font-size: .9em;
-  line-height: 1.5em;*/
-  margin-top: 50px;
+  /*margin-top: 50px;*/
+  display: block;
+  margin: 50px auto 0 auto;
 }
 
 .ad p:first-of-type {
