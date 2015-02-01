@@ -216,6 +216,16 @@ aside {
   text-decoration: none;
 }
 
+.avatar small a:visited {
+  color: rgb(203, 212, 219);
+  text-decoration: none;
+}
+
+.avatar small a:hover {
+  color: rgb(16, 109, 179);
+  text-decoration: none;
+}
+
 .avatar img {
   margin-top: 25px;
 }
@@ -374,15 +384,15 @@ a:link {
 
 }
 
+a:visited {
+  color: rgb(8, 52, 82);
+  text-decoration: underline;
+}
+
 a:hover {
   color: rgb(16, 109, 179);
   text-decoration: underline;
 
-}
-
-a:visited {
-  background: rgb(8, 52, 82);
-  text-decoration: underline;
 }
 
 
