@@ -167,6 +167,19 @@ article img {
   padding: 1px 10px 0 10px;
 }
 
+.icon1 a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.icon1 a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.icon1 a:hover {
+  color: rgb(94, 104, 111);
+  text-decoration: none;
+}
+
 .icon2 {
   background: rgb(8, 52, 82);
   display: inline-block;
@@ -190,6 +203,19 @@ article img {
   display: inline-block;
   margin: 0;
   padding: 1px 10px 0 10px;
+}
+
+.icon2 a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.icon2 a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.icon2 a:hover {
+  color: rgb(94, 104, 111);
+  text-decoration: none;
 }
 
 aside {
@@ -377,6 +403,25 @@ footer {
 .nav-foot li {
   display: inline; 
 }
+
+.nav-foot a:link {
+  color: rgb(105, 114, 121);
+  text-decoration: none;
+
+}
+
+.nav-foot a:visited {
+  color: rgb(105, 114, 121);
+  text-decoration: none;
+
+}
+
+.nav-foot a:hover {
+  color: rgb(16, 109, 179);
+  text-decoration: none;
+
+}
+
 
 a:link {
   color: rgb(203, 212, 219);
